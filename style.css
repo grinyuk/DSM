@@ -1,0 +1,245 @@
+body
+{
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+}
+
+html, body
+{
+  padding: 0;
+  margin: 0;
+}
+
+.head__site
+{
+  height: 79.3vh;
+  width: 100%;
+  background-image: url("images/backtop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.line_gradient
+{
+  background: linear-gradient(90deg, rgba(52, 238, 197, 1) 0%, rgba(82, 205, 214, 0.9) 71%, rgba(0, 212, 255, 0.85) 100%);
+  height: 70.3vh;
+  width: 93%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 35px 55px;
+  color: #FFF;
+}
+
+.logo
+{
+  float: left;
+}
+
+.logo__text
+{
+  font-style: normal;
+  font-size: 10px;
+  display: block;
+  margin-top: 1px;
+  letter-spacing: 0.5px;
+  float: left;
+
+}
+
+.sing_up
+{
+  text-decoration: none;
+  color: #FFF;
+  padding: 8px 13px;
+  font-size: 12px;
+  float: right;
+  border: 1px solid #FFF;
+  border-radius: 2px;
+  transition: color 0.5s, background-color 0.3s;
+}
+
+.sing_up:hover
+{
+  background-color: rgba(255, 255, 255, 1);
+  color: grey;
+}
+
+.nav__link
+{
+  text-decoration: none;
+  color: #FFF;
+  padding: 20px 15px 0 20px;
+  font-weight: bold;
+  font-size: 12px;
+  transition: color 0.5s;
+}
+
+.nav__link:hover
+{
+  color: #000;
+}
+
+.row__links
+{
+  width: 100%;
+  text-align: center;
+}
+
+.buy__box
+{
+  position: absolute;
+  width: 465px;
+  margin-top: 80px;
+}
+
+.text__header
+{
+  font-size: 42px;
+  margin-bottom: -5px;
+}
+
+.text__main
+{
+  line-height: 2;
+  font-size: 14.4px;
+}
+
+.video__box
+{
+  float: right;
+  width: 482px;
+  height: 258px;
+  background-image: url("https://andrewlance.github.io/PSD-1/img/video_background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 130px -40px 0 0;
+  border-radius: 3px;
+  box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+  transition: width 0.2s, height 0.2s, margin 0.2s, box-shadow 0.2s;
+}
+
+.video__box:hover
+{
+  width: 490px;
+  height: 266px;
+  margin: 125px -45px 0 0;
+  box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.3);
+}
+
+.light__back
+{
+  width: inherit;
+  height: inherit;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: inherit;
+  position: relative;
+  text-align: center;
+}
+
+.black__square
+{
+  width: 51.6px;
+  height: 50.4px;
+  background-color: #1f344b;
+  border-radius: 5px;
+  position: absolute;
+  top: 32%;
+  left: 45%;
+  transition: background-color 0.2s, box-shadow 0.2s;
+  text-align: center;
+  line-height: 3.5;
+}
+
+.black__square:hover
+{
+  background-color: #3e536a;
+  box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.4);
+}
+
+.fa-caret-right
+{
+  font-size: 20px;
+}
+
+.video__text
+{
+  font-size: 9.5px;
+  font-weight: 700;
+  color: #47586a;
+  line-height: 31;
+}
+
+.buy__button, .try__button
+{
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 3px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 4;
+  margin-top: 20px;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+  transition: box-shadow 0.2s, background-color 0.2s;
+}
+
+.buy__button
+{
+  width: 132px;
+  height: 50px;
+  background-color: #1f344b;
+  color: #FFF;
+}
+
+.buy__button:hover
+{
+  background-color: #3e536a;
+  box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.4);
+}
+
+.try__button
+{
+  width: 155px;
+  height: 50px;
+  background-color: #FFF;
+  color: #1f344b;
+  margin-left: 20px;
+}
+
+.try__button:hover
+{
+  background-color: #d1d1d1;
+  box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.4);
+}
+
+.tool__text h1
+{
+  text-align: center;
+  font-size: 36px;
+  margin-top: 56px;
+  margin-bottom: 4px;
+}
+
+.tool__text h3
+{
+  font-size: 19.2px;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 10.5px;
+  color: #b0bec5;
+}
+
+.tool__text p
+{
+  text-align: center;
+  width: 450px;
+  font-size: 12px;
+  margin: auto;
+  color: #b0bec5;
+  margin-top: 0;
+  line-height: 1.6;
+}
