@@ -379,7 +379,7 @@ html, body
 .drop-list
 {
   display: flex;
-  width: 600px;
+  width: 610px;
   margin: auto;
   box-shadow: 0px 3px 9px -4px rgba(0,0,0,0.2);
   margin-bottom: 15px;
@@ -413,4 +413,146 @@ html, body
 .fill-iteam
 {
   width: 100%;
+}
+
+.comments-section
+{
+  height: 450px;
+  background: url('https://andrewlance.github.io/PSD-1/img/comments_background.jpg');
+  display: flex;
+}
+
+.comments-section::before
+{
+  content: "";
+  background: linear-gradient(90deg, rgba(52, 238, 197, 0.9) 0%, rgba(82, 205, 214, 0.9) 71%, rgba(0, 212, 255, 0.85) 100%);
+  height: inherit;
+  width: 100vw;
+  position: absolute;
+}
+
+.comments-header
+{
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 60px;
+  width: 400px;
+  color: #FFF;
+}
+
+.comments-left
+{
+  position: relative;
+  padding-top: 45px;
+  padding-left: 35px;
+  width: 73rem;
+  margin: 0;
+}
+
+.comments-right
+{
+  position: relative;
+  height: inherit;
+  width: 100%;
+}
+
+.comments-header__text
+{
+  color: #FFF;
+  font-size: 12px;
+  width: 400px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  padding-left: 25px;
+}
+
+.comments-left .start-button
+{
+  background-color: #1f344b;
+  margin: 60px 0 0 25px;
+  font-size: 12px;
+  transition: background-color 0.2s;
+}
+
+.comments-left .start-button:hover
+{
+  background-color: #3e536a;
+}
+
+.arrow {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-top: 3.5px solid rgba(255,255,255,0.5);
+  border-right: 3.5px solid rgba(255,255,255,0.5);
+  margin: auto;
+  margin-top: 30px;
+}
+
+.arrow-top
+{
+  transform: rotate(-45deg);
+  transition: border-color 0.2s;
+}
+
+.arrow-bottom
+{
+  transform: rotate(135deg);
+  transition: border-color 0.2s;
+}
+
+.arrow-top:hover, .arrow-bottom:hover
+{
+  border-color: #FFF;
+}
+
+.comments-right span.left-space
+{
+  display: block;
+  margin-left: 40px;
+}
+
+.comment-text
+{
+  color: #b0bec5;
+  background-color: #FFF;
+  font-size: 12px;
+  width: 530px;
+  line-height: 1.5;
+  border-radius: 5px;
+  padding: 20px;
+  padding-right: 70px;
+  box-sizing: border-box;
+  margin: 5px 0;
+}
+
+.comment-text strong
+{
+  color: #000;
+  font-size: 14px;
+}
+
+.comments-container
+{
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+
+.comment-flex
+{
+  display: flex;
+}
+
+.comment-flex::before
+{
+  content: url('https://andrewlance.github.io/PSD-1/img/avatar1.png');
+  transform: scale(.75);
+  margin-right: 175px;
+  padding-top: 45px;
+}
+
+.comment-flex:nth-child(2n)::before
+{
+  content: url('https://andrewlance.github.io/PSD-1/img/avatar2.png');
 }
